@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Warelink - JoeDat</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/JDBlk.svg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Cardo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: PhotoFolio
+  * Template URL: https://bootstrapmade.com/photofolio-bootstrap-photography-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="gallery-single-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/JDBlk.svg" alt="">
+        <!-- <i class="bi bi-camera"></i>
+        <h1 class="sitename">PhotoFolio</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Home<br></a></li>
+		  <!--<li class="dropdown"><a href="gallery.html"><span>Brands</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="gallery.html">Nature</a></li>
+              <li><a href="gallery.html">People</a></li>
+              <li><a href="gallery.html">Architecture</a></li>
+              <li><a href="gallery.html">Animals</a></li>
+              <li><a href="gallery.html">Sports</a></li>
+              <li><a href="gallery.html">Travel</a></li>
+               <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li> 
+            </ul>
+          </li>-->
+		  <li><a href="brands.html" class="active">Brands</a></li>
+          <li><a href="process.html">Process</a></li>
+          <li><a href="packages.html">Packages</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+		  <li><a href="businessIntelligence.html">Business Intelligence</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <div class="header-social-links">
+        <a href="https://x.com/MrJoe_DAT?s=09" class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.behance.net/mrjoedat" class="behance"><i class="bi bi-behance"></i></a>
+        <a href="https://www.instagram.com/mrjoe_dat/profilecard/?igsh=M3VnenJ0ZWtwcGRw" class="instagram"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/joseph-olaitan-82bb94194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin"><i class="bi bi-linkedin"></i></a>
+      </div>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Warelink</h1>
+              <p class="mb-0">Warelink is a modern store that sells laptops and gadgets, they serve as a link between producers and customers. More info below.</p>
+              <a href="contact.html" class="cta-btn">Hit me up!<br></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Brands</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Gallery Details Section -->
+    <section id="gallery-details" class="gallery-details section">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="portfolio-details-slider swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "navigation": {
+                "nextEl": ".swiper-button-next",
+                "prevEl": ".swiper-button-prev"
+              },
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/warel1.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/warel2.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/warel3.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/warel4.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/warel5.jpg" alt="">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/gallery/warel6.jpg" alt="">
+            </div>
+
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+        <div class="row justify-content-between gy-4 mt-4">
+
+          <div class="col-lg-8" data-aos="fade-up">
+            <div class="portfolio-description">
+              <h2>Warelink</h2>
+              <p>
+                Warelink is as a cutting-edge, reliable, and approachable tech hub, designed to connect customers seamlessly with high-quality gadgets. The plum and light violet color palette embodies sophistication and innovation, with a modern touch that appeals to a forward-thinking audience.
+              </p>
+              <p>
+                With a mission to be the ultimate link between tech producers and end-users, Warelink builds a trustworthy and engaging shopping experience, setting a new standard for tech accessibility.
+              </p>
+
+              <div class="testimonial-item">
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>...the final logo, with a slight adjustment, was exactly what we needed, and it perfectly captures our brand without being forgettable. Highly recommend working with him!</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+                <div>
+                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                  <h3>Thomas</h3>
+                  <h4>Tech Specialist</h4>
+                </div>
+              </div>
+
+              <p>
+				We developed a distinctive visual identity that captures Warelink's essence of connectivity, professionalism, and modernity. The main typeface, Vonique43, adds a sleek yet bold aesthetic that reinforces the brand’s authority in the tech space.
+              </p>
+
+              <p>
+                The colors, deep plum paired with light violet, create a sense of reliability and freshness, reflecting Warelink’s role as a bridge in the tech world. The logo design, devoid of overt gadget imagery, utilizes abstract linking shapes to subtly convey connectivity, ensuring timeless appeal while maintaining focus on the brand’s mission.
+              </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong> Full Visual Identity</li>
+                <li><strong>Client</strong> Thomas</li>
+                <li><strong>Project date</strong> October, 2024</li>
+                <li><strong>Project URL</strong> <a href="https://www.behance.net/gallery/212462477/Warelink">www.behance.com</a></li>
+                <div class="text-center mt-4">
+				  <a href="contact.html" class="btn-hit-me-up">Get Onboard!</a>
+				</div>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Gallery Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container">
+      <div class="copyright text-center ">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">PhotoFolio</strong> <span>All Rights Reserved</span></p>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a href="https://x.com/MrJoe_DAT?s=09"><i class="bi bi-twitter-x"></i></a>
+        <a href="https://www.behance.net/mrjoedat"><i class="bi bi-behance"></i></a>
+        <a href="https://www.instagram.com/mrjoe_dat/profilecard/?igsh=M3VnenJ0ZWtwcGRw"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/joseph-olaitan-82bb94194?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="bi bi-linkedin"></i></a>
+      </div>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Modified by <a href="https://tinyurl.com/mrjoedat">JoeDat</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="line"></div>
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
